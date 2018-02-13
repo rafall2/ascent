@@ -1,0 +1,184 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+* {
+font-family: Arial !important;
+}
+
+ table>td { word-wrap: break-word;line-height:11px;font-family:Arial !important }
+ body {word-wrap: break-word;font:11px Arial, Times New Roman;line-height:10px}
+ #footer {text-align:justify;font-size:xx-small;position: fixed; bottom: 50px; left: 20px; right: 20px; height: 75px;}
+span.pagenum:before {
+      content: counter(page);
+	  font-weight:bold;
+}
+.granica {border-bottom:1px solid black;}
+.granica2 {border-bottom:3px solid black;}
+.suma {font-size:x-small;vertical-align:baseline;}
+.podsuma {padding:0px;}
+.naprawo {text-align:right;margin-right:-21px;margin-left:auto;margin-bottom:30px;border-collapse:collapse;border-bottom:3px solid black;padding-bottom:10px;clear:both}
+.produkty {height:15px;}
+.kropki {border-bottom:1px dotted black;width:200px;float:right;}
+</style>
+</head>
+<body>
+<table><tr>
+<RAPORT_ID=40>
+<td width="100">&nbsp;</td>
+<td>
+<p style="float:left;text-align: right; border-bottom: 2px solid black; width: 340px; margin-right: 0px; margin-left: 223px;margin-top:-20px;height: auto;"><img src="./logo-kwadrat.jpg" alt="Logo Orbitvu" width="79" height="62" style="margin-bottom:-10px !important;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="font-size:large;vertical-align:text-bottom;">FACTURA</b><BR>&nbsp;</p></td>
+</tr>
+</table>
+<table style="height: 136px; width: 720px;">
+<tbody>
+<tr>
+<td style="width: 68px; text-align: left;vertical-align:top">
+Vendedor:
+
+</td>
+<td style="width: 290.2px;vertical-align:top"><b>ORBITVU PRODUCT TELEPORTING, S.L.</b><br />Calle de Vico, 33 - Local Bajos, <br />08021 Barcelona, España<br /><br />tel.: +34 935 192 567, <br />email: alex.fuentes@orbitvu.com<br />NIF: B66953357 <br /></td>
+<td style="width: 304.8px;vertical-align:top">
+
+<table style="height: 97px; border-bottom: 2px solid black;margin-right: 20px;">
+<tbody>
+<tr>
+
+
+<td style="width: 148px;vertical-align:top">Contacto:</td>
+<td style="width: 177px;"><b>Alex Fuentes</b></td></tr>
+<tr>
+<td style="width: 148px;vertical-align:top">Correo electrónico:</td>
+<td style="width: 177px;"><b>alex.fuentes@orbitvu.com</b></td></tr>
+
+
+<tr>
+<td style="width: 148px;vertical-align:top">Nº de Factura</td>
+<td style="width: 177px;"><b>@id@/@rejestr@/@rok@</b></td>
+</tr>
+</RAPORT_ID=40>
+<tr>
+<RAPORT_ID=45>
+<td style="width: 148px;">Fecha Factura:</td>
+<td style="width: 177px;"><b>@datafakt@</b></td>
+</tr>
+<tr>
+<td style="width: 148px;">Fecha Pedido:</td>
+<td style="width: 177px;"><b>@saledate@</b></td>
+</tr>
+</RAPORT_ID=45>
+<tr>
+<RAPORT_ID=41>
+<td style="width: 148px;">Referencia del pedido:</td>
+<td style="width: 177px;"><b>@ordref@</b></td>
+</RAPORT_ID=41>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 68px;vertical-align:top">
+<br />
+Comprador:
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<RAPORT_ID=37>
+<td style="width: 290.2px;vertical-align:top"><br /><b>@buyer1@</b><br /> @buyer2@<br /> @buyer3@<br /> @buyer4@<br /> @buyer5@<br /> @buyer6@<br /> @buyer7@</td>
+<td style="width: 314.8px;vertical-align:top">
+</RAPORT_ID=37>
+<table style="height: auto;" width="713">
+<tbody>
+<tr>
+<RAPORT_ID=45>
+<td style="width: 152px;">Fecha límite pago:</td><td>@paymenttill@ </td></tr>
+
+
+</tbody>
+</table>
+</td>
+</tr>
+
+</tbody>
+</table>
+<hr>
+<table width="583" style="padding-bottom:15px;margin:0; border-collapse: collapse;">
+<tr>
+
+<td width="53">Condiciones de pago: </td>
+<td width="223"><b>@payterms@</b> </td>
+<td width="112">Banco: </td>
+<td><b>BANC DE SABADELL</b></td>
+
+</tr>
+<tr>
+<td>Moneda: </td>
+<td><b>@curr@</b> </td>
+<td>Código Swift:</td><td><b>BSAB ESBB</b></td>
+</tr>
+<tr>
+<td>IBAN:</td><td><b>ES94 0081 5224 4100 0134 5245</b></td>
+</tr>
+
+</table>
+<hr>
+<BR><BR><b>A LA ORDEN</b><BR><BR>
+<table width="526" style="padding:0;margin:0; border-collapse: collapse;">
+<tr>
+
+<td class="granica" width="5">Nº </td><td class="granica" width="30">Código de producto </td><td class="granica" width="120">Descripción </td><td class="granica" width="5" align="center">Cantidad </td><td width="10" align="center" class="granica">Unidades </td><td width="15" class="granica" align="right">Precio/Unidad </td><td width="25" class="granica" align="right">Importe </td>
+</tr>
+<RAPORT_ID=38>
+
+<tr width="600">
+<td class="produkty"><b>@lp@</b></td><td align="left"><b>@product@</b></td><td><b>@productdesc@</b></td><td align="center"><b>@qty@</b></td><td align="center"><b>@unit@</b></td><td align="right"><b>@price@</b> </td><td align="right"><b>@amount@</b> </td>
+</tr>
+
+</RAPORT_ID=38>
+</table>
+<hr>
+<RAPORT_ID=48>Notas: <b>@notes@</b></RAPORT_ID=48>
+<BR><BR><BR><BR><BR> 
+<table class="naprawo" width="200" class="podsuma">
+<tr><RAPORT_ID=41>
+<RAPORT_ID=47>
+<td class="suma">Total Bruto:</td><td class="suma">@totalnet@ @curr@</td>
+</tr>
+<tr>
+<td class="suma">@label1@</td><td class="suma">@discount@ @curr2@</td>
+</tr>
+<tr>
+
+<td class="suma">@label2@</td><td class="suma">@totalnetwithoutdiscount@ @curr2@</td>
+</tr>
+<tr>
+<td class="suma"><RAPORT_ID=46>IVA (@pm_vat@):</RAPORT_ID=46></td><td class="suma">@vat@ @curr@</td>
+
+</tr>
+
+<tr>
+
+<td class="suma">TOTAL:</td><td class="suma"><b>@gross@</b> @curr@<BR>&nbsp;</td>
+</RAPORT_ID=47>
+</tr></RAPORT_ID=41>
+</RAPORT_ID=45>
+
+</table><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<p class="kropki" align="right"> Emitido por:<b>Alex Fuentes:</b> </p>
+
+
+
+
+<div id="footer">
+<b>Comentario:</b><BR>
+[1] Los productos serán propiedad de Orbitvu Product Teleporting, S.L. hasta el pago pago completo de los mismos.<BR>
+[2] Visite www.orbitvu.com para conocer todos los términos y condiciones de la venta según este documento, el contrato comercial actual y los términos generales de venta y entrega.<BR>
+[3] Cualquier cargo o comisión por la transferencia debe ser a cargo del comprador. ( igualmente con transferencias internacionales).<BR>
+
+<p align="right" class="normalfont">Pág.: <span class="pagenum"></span></p>
+</div>
+</body>
+</html>
